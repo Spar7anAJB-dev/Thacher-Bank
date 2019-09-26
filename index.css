@@ -1,0 +1,133 @@
+#header {
+	background-color: #763626;
+	color: black;
+	text-align: center;
+	padding:5px;
+}
+#nav {
+	line-height: 30px;
+	background-color: #763626;
+	width: 15%;
+	padding:5px;
+}
+#section {
+	width: 85%;
+	padding: 10px
+
+}
+#footer {
+	background-color:#763626;
+	color: black;
+	clear:both;
+	text-align: center;
+	padding: 5px;
+}
+
+h1, h2 {
+	font-family: 'Source Code Pro', monospace;
+}
+
+h3 {
+	color: white;
+	font-size: 50px;
+}
+
+p, ul {
+	color: white;
+}
+
+body {
+	background-color: #2A3132;
+}
+
+
+
+.row {
+    display: table;
+    width: 100%;
+}
+
+.column {
+	display: table-cell;
+	vertical-align: top;
+}
+
+button:hover{
+	background-color: orange;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("bank.jpg");
+
+  /* Full height */
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg {
+    height: 50%;
+   
+}
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+ 
+}
+figcaption {
+  font-size: 25px;
+}
+
+
